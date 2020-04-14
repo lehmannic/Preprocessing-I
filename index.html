@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -9,11 +10,99 @@
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header>
+    <div class="navContainer">
+      <nav class="navLinks">
+        <a href="#">Home</a>
+        <a href="#personal">About</a>
+        <a href="#work">History</a>
+        <a href="#personal">Contact</a>
+      </nav>
+    </div>
+    <div class="aboutMeContainer">
+      <div class="headshot">
+        <img src="images/aaronHeadShot.png" alt="professional head shot">
+      </div>
+      <div class="aboutMe">
+        <h1>Aaron Rodgers</h1>
+        <p>Professional Football Player</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="mainContainer">
+    <div class="leftContainer">
+      <div id="personal">
+        <h3 class="sectionTitle">Profile</h3>
+        <p>Aaron Rodgers is an American football quarterback for the Green Bay Packers of the National Football League (NFL). Rodgers played college football at California, where he set several career passing records, including lowest single-season and career interception rates. He was selected in the first round of the 2005 NFL Draft by the Packers</p>
+      </div>
+      <div class="contact">
+        <h3 class="sectionTitle">Contact</h3>
+        <div class="contactLinks">
+          <a href="#">Address Goes Here</a>
+          <a href="#">Email goes here</a>
+          <a href="#">Phone Number</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+      <div class="education">
+        <h3 class="sectionTitle">Education</h3>
+        <p>Pleasant Valley High School <br/> Starting Quarterback</p>
+      </div>
+    </div>
+
+    <div class="rightContainer">
+      <div class="skillsContainer">
+        <h3 class="sectionTitle">Skills</h3>
+        <ul id="skillsList">
+          <li>skill one</li>
+          <li>skill two</li>
+          <li>skill three</li>
+          <li>skill four</li>
+        </ul>
+      </div>
+      <div id="work">
+        <h3 class="sectionTitle">Work Experience</h3>
+        <div class="workContainer">
+          <div class="workDetailContainer">
+            <h4 class="workPlace">Green Bay Packers</h4>
+            <ul class="experienceList">
+              <li>Led Green Bay Packers to victory over the Pittsburgh Steelers in Super Bowl XLV and won the MVP award for the game</li>
+              <li>Awarded league MVP by the Associated Press in 2011 and 2014</li>
+              <li>Ranks No. 1 in NFL history in career passer rating, interception percentage, and TD/INT ratio </li>
+              <li>Is the only quarter back in league history to record 100-plus passer rating in six consecutive seasons</li>
+            </ul>
+          </div>
+          <div class="workDetailContainer">
+            <h4 class="workPlace">University of California, Berkley </h4>
+            <ul class="experienceList">
+              <li>Was 17-4 as a starter in college</li>
+              <li>Threw for 5,469 yards across two seasons for the Cal Berkley Golden Bears</li>
+              <li>Only had 13 interceptions over 665 pass attempts in college and holds the Cal career record for lowest percentage of passes intercepted (1.95%) </li>
+              <li>Was expected to be selected early in the 2005 NFL draft after an impressive junior season with Cal</li>
+            </ul>
+          </div>
+          <div class="workDetailContainer">
+            <h4 class="workPlace">Pleasant Valley High School </h4>
+            <ul class="experienceList">
+              <li>Started at quarterback for two years</li>
+              <li>Threw for a total of 4,421 passing yards in high school</li>
+              <li>Set single-game records of six touchdowns and 440 all-purpose yards </li>
+              <li>Graduated with an A-average and scored 1310 on the SAT</li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
 </body>
+
 </html>
